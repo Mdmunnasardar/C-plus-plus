@@ -4,12 +4,7 @@ int main()
 {
     long long N;
     cin >> N;
-    long long i;
     long long sum = 0;
-
-    for (i = 0; i <= N; i++)
-    {
-        sum += i;
-    }
+    sum = (N*(N+1))/2;
     cout << sum;
 }
