@@ -3,11 +3,11 @@
 using namespace std;
 
 int main() {
-    int A,B,C,D;
+    long A,B,C,D;
     cin>>A>>B>>C>>D;
 
-    int result=pow(A,B);
-    int result1=pow(C,D);
+    double result=B*log(A);
+    double result1=D*log(C);
 
     if(result>result1){
         cout<<"YES";
