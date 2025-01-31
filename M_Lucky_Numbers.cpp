@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Function to check if a number is lucky
 bool isLucky(int num) {
     while (num > 0) {
         int digit = num % 10;
