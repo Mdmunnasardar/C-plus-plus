@@ -7,7 +7,7 @@ int main() {
         cin >> N >> M;
         
         if (N <= 0 || M <= 0)
-            break; // Terminate if any number is <= 0
+            break; 
         
         int start = min(N, M);
         int end = max(N, M);
