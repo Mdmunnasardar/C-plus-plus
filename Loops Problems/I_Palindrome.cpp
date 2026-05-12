@@ -16,6 +16,8 @@ bool isPalindromeNumber(int num, int& reversedNum) {
     return originalNum == reversedNum;
 }
 
+
+
 int main() {
     int number, reversedNumber;
    
