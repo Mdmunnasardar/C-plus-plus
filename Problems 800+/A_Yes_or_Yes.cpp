@@ -19,8 +19,6 @@ int main() {
             }
         }
 
-        
-        
         if (!hasY || s.front() == 'N' || s.back() == 'N')
             cout << "YES\n";
         else
