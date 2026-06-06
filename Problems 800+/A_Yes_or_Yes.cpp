@@ -18,6 +18,8 @@ int main() {
                 break;
             }
         }
+
+        
         
         if (!hasY || s.front() == 'N' || s.back() == 'N')
             cout << "YES\n";
